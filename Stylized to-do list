@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Creative To-Do Lab</title>
+</head>
+<body>
+  <ul class="todo-list">
+    <li>
+      <input type="checkbox" id="task-html">
+      <label for="task-html">Master HTML</label>
+      <ul class="sub-item">
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" class="sub-item-link" target="_blank">Explore HTML Docs</a></li>
+      </ul>
+    </li>
+    <li>
+      <input type="checkbox" id="task-css">
+      <label for="task-css">Style with CSS</label>
+      <ul class="sub-item">
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS" class="sub-item-link" target="_blank">Dive into CSS Docs</a></li>
+      </ul>
+    </li>
+    <li>
+      <input type="checkbox" id="task-js">
+      <label for="task-js">Code JavaScript</label>
+      <ul class="sub-item">
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" class="sub-item-link" target="_blank">Read JS Docs</a></li>
+      </ul>
+    </li>
+    <li>
+      <input type="checkbox" id="task-react">
+      <label for="task-react">Build with React</label>
+      <ul class="sub-item">
+        <li><a href="https://reactjs.org/" class="sub-item-link" target="_blank">Visit React Docs</a></li>
+      </ul>
+    </li>
+  </ul>
+</body>
+</html>
+
+
+CSS:
+.sub-item-link {
+  text-decoration: none;        
+  color: #1e90ff;               
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.sub-item-link:hover {
+  color: #ff6347;              
+}
+
+.sub-item-link:active {
+  color: #ffa500;               
+}
+
+.sub-item-link:focus {
+  outline: 2px dashed #32cd32;  
+}
+
+.sub-item-link:visited {
+  color: #6a5acd;               
+}
+
+
+</html>
