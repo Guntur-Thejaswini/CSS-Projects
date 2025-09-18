@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SLS Master Learn</title>
+  <link rel="stylesheet" href="style.css" />
+<style>
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background-color: #2575fc;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  background-color: #444;
+  list-style: none;
+  padding: 0.5rem;
+}
+
+nav li {
+  margin: 0 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  padding: 2rem;
+  text-align: center;
+}
+
+section {
+  margin-bottom: 3rem;
+}
+
+iframe {
+  width: 80%;
+  height: 300px;
+  border: none;
+  margin-top: 1rem;
+}
+
+.quiz {
+  background-color: #eee;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 8px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.editor textarea {
+  width: 80%;
+  height: 150px;
+  margin-top: 1rem;
+}
+
+.editor button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  background-color: #2575fc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.editor iframe {
+  width: 80%;
+  height: 200px;
+  border: 1px solid #ccc;
+  margin-top: 1rem;
+}
+
+footer {
+  background-color: #222;
+  color: #ccc
+</style>
+
+</head>
+<body>
+  <header>
+    <h1>SLS Master Learn</h1>
+    <p>Learn to Code with Confidence</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#html">HTML</a></li>
+      <li><a href="#css">CSS</a></li>
+      <li><a href="#js">JavaScript</a></li>
+      <li><a href="#python">Python</a></li>
+      <li><a href="#python Full Stack">Python Full Stack</a></li>
+      <li><a href="#Java Full Stack">Java Full Stack</a></li>
+      <li><a href="#Swift">Swift</a></li>
+       <li><a href="#DSA">DSA</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <!-- HTML Section -->
+    <section id="html">
+      <h2>HTML Basics</h2>
+      <iframe src="https://www.youtube.com/embed/qz0aGYrrlhU" allowfullscreen></iframe>
+      <div class="quiz">
+        <h3>HTML Quiz</h3>
+        <ol>
+          <li>Which tag defines a paragraph? — <strong>&lt;p&gt;</strong></li>
+          <li>What does the &lt;title&gt; tag affect?</strong></li>
+          <li>Which tag inserts an image?</li>
+          <li>What attribute sets the link destination? </li>
+          <li>Which tag creates an unordered list? </li>
+          <li>What tag is used for table rows?</li>
+          <li>Which tag embeds a YouTube video?</strong></li>
+          <li>What tag links external CSS? </strong></li>
+          <li><em>Task:</em> Create a basic HTML page with a heading, paragraph, and image.</li>
+          <li><em>Task:</em> Build a form with name, email, and submit button.</li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- CSS Section -->
+    <section id="css">
+      <h2>CSS Styling</h2>
+      <iframe src="https://www.youtube.com/embed/OXGznpKZ_sA" allowfullscreen></iframe>
+      <div class="quiz">
+        <h3>CSS Quiz</h3>
+        <ol>
+          <li>Which property sets text color? </li>
+          <li>What sets background color?</li>
+          <li>How to make text bold?</li>
+          <li>Which property controls spacing inside an element?</li>
+          <li>Which property controls spacing outside an element?</li>
+          <li>What selector targets all &lt;p&gt; tags?</li>
+          <li>Which property sets font size?</li>
+          <li>What value hides an element but keeps its space? </li>
+          <li><em>Task:</em> Style a webpage with a colored header, centered content, and styled buttons.</li>
+          <li><em>Task:</em> Create a responsive layout using Flexbox or Grid.</li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- JavaScript Section -->
+    <section id="js">
+      <h2>JavaScript Essentials</h2>
+      <iframe src="https://www.youtube.com/embed/W6NZfCO5SIk" allowfullscreen></iframe>
+      <div class="quiz">
+        <h3>JavaScript Quiz</h3>
+        <ol>
+          <li>Which keyword declares a variable?</li>
+          <li>What does alert() do? </li>
+          <li>Which method logs to console?</li>
+          <li>What does document.getElementById() return?</li>
+          <li>Which operator checks value and type?</li>
+          <li>Output of typeof "hello"?</li>
+          <li>How to write a function?</li>
+          <li>What keyword exits a loop?</li>
+          <li><em>Task:</em> Create a button that shows an alert when clicked.</li>
+          <li><em>Task:</em> Build a simple calculator using prompt and alert.</li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Python Section -->
+    <section id="python">
+      <h2>Python Programming</h2>
+      <iframe src="https://www.youtube.com/embed/_uQrJ0TkZlc" allowfullscreen></iframe>
+      <div class="quiz">
+        <h3>Python Quiz</h3>
+        <ol>
+          <li>Which keyword defines a function?</li>
+          <li>What function prints output? </li>
+          <li>Symbol for comments?</li>
+          <li>Which data type stores multiple values?</li>
+          <li>Result of len("hello")?</li>
+          <li>Keyword for loops?</li>
+          <li>What does input() do?</li>
+          <li>Output of type(42)?</li>
+          <li><em>Task:</em> Write a Python program to check if a number is even or odd.</li>
+          <li><em>Task:</em> Create a simple calculator using input() and if statements.</li>
+        </ol>
+      </div>
+    </section>
+   <!-- Python Full Stack Section -->
+<section id="Python full Stack">
+      <h2>Python Full Stack</h2>
+      <iframe src="https://www.youtube.com/embed/aW9JI9ckVXY" allowfullscreen></iframe>
+      <div class="quiz">
+<h3>Python Full Stack Quiz</h3>
+<ol>
+<li>What is the difference between static and dynamic typing in Python?</li>
+<li>How do you handle database connections in a Python full stack application?</li>
+<li>What is the purpose of the __init__ method in a Python class?</li>
+<li>How do you implement authentication and authorization in a Python full stack application?</li>
+<li>What is the difference between a list and a tuple in Python?</li>
+<li>How do you use Python's built-in logging module for debugging and logging?</li>
+<li>What is the purpose of the requirements.txt file in a Python project?</li>
+<li>How do you deploy a Python full stack application to a production environment?</li>
+<li><em>Task:</em>Build a simple blog application, including endpoints for creating, reading, updating, and deleting blog posts.</li>
+<li><em>Task:</em>Build a Python full stack application that allows users to create and manage their own todo lists, integrates with a calendar API to schedule tasks, and sends reminders and notifications.</li>
+</ol>
+ </div>
+ </section>
+
+<!-- Java Full Stack Section -->
+<section id="Java full Stack">
+      <h2>Java Full Stack</h2>
+      <iframe src="https://www.youtube.com/embed/TXhIPNX47PY" allowfullscreen></iframe>
+      <div class="quiz">
+<h3>Java Full Stack Quiz</h3>
+<ol>
+<li>What is the purpose of the @RestController annotation in Spring?</li>
+<li>How do you handle exceptions in Java?</li>
+<li>What is the role of the pom.xml file in a Maven project?</li>
+<li>Which Java framework is commonly used for building web applications?</li>
+<li>what is the purpose of the web.xml file in a Java web application?</li>
+<li>How do you implement dependency injection in Spring?</li>
+<li>What is the difference between @Autowired and @Value annotations in Spring?</li>
+<li>How do you configure database connections in a Java application?</li>
+<li><em>Task:</em>Build a simple employee management system.</li>
+<li><em>Task:</em>Build a Python full stack application that allows users to create and manage their own todo lists, integrates with a calendar API to schedule tasks, and sends reminders and notifications.</li>
+</ol>
+ </div>
+ </section>
+
+<!-- Swift Section -->
+
+<section id="Swift">
+      <h2>Swift</h2>
+      <iframe src="https://www.youtube.com/embed/8Xg7E9shq0U" allowfullscreen></iframe>
+      <div class="quiz">
+<h3>Swift Quiz</h3>
+<ol>
+<li>What is the difference between let and var in Swift?</li>
+<li>How do you implement optional binding in Swift?</li>
+<li>What is the purpose of the guard statement in Swift?</li>
+<li>How do you create a protocol in Swift?</li>
+<li>What is the difference between a struct and a class in Swift?</li>
+<li>How do you handle errors in Swift using do-try-catch?</li>
+<li>What is the purpose of the @IBOutlet attribute in Swift?</li>
+<li>How do you implement a delegate pattern in Swift?</li>
+<li><em>Task:</em>Create a Swift program that calculates the area and perimeter of a rectangle given its length and width.</li>
+<li><em>Task:</em>Create a Swift program that implements a simple banking system with  any one feature.</li>
+</ol>
+ </div>
+ </section>
+
+<!-- DSA Section -->
+
+<section id="DSA">
+      <h2>DSA</h2>
+      <iframe src="https://www.youtube.com/embed/BBpAmxU_NQo" allowfullscreen></iframe>
+      <div class="quiz">
+<h3>DSA Quiz</h3>
+<ol>
+<li>What is the time complexity of binary search?</li>
+<li>Which data structure follows the LIFO principle?</li>
+<li>What is the purpose of the merge step in merge sort?</li>
+<li>Which algorithm is used to find the shortest path in a graph?</li>
+<li>What is the time complexity of insertion sort?</li>
+<li>Which data structure is used to implement a priority queue?</li>
+<li>What is the purpose of the hash function in a hash table?</li>
+<li>Which traversal technique visits the root node first?</li>
+
+<li><em>Task:</em>Create a program to implement a stack using a linked list.</li>
+<li><em>Task:</em>Create a program to find the maximum element in an array using recursion.</li>
+</ol>
+ </div>
+ </section>
+   <!-- Code Editor -->
+    <section class="editor">
+      <h2>Try It Yourself</h2>
+      <textarea id="codeArea" placeholder="Write HTML/CSS/JS/Python//Java code here..."></textarea>
+      <button onclick="runCode()">Run Code</button>
+      <iframe id="outputFrame"></iframe>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 SLS Master Learn. Built by G.Thejaswini .</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
