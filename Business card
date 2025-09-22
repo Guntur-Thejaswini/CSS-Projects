@@ -7,7 +7,7 @@
  </head>
 <body>
   <div class="business-card">
-    <img class="profile-image" src="https://cdn.freecodecamp.org/curriculum/labs/flower.jpg" alt="A vibrant flower symbolizing creativity and growth" />
+    <img class="profile-image" src="C:\Users\guntu\Downloads\laptop.jpg" alt="A vibrant flower symbolizing creativity and growth" />
     
     <p class="full-name">Thejaswini</p>
     <p class="designation">Full Stack Developer</p>
