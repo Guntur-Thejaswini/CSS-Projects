@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CodeStorm Hackathon 2025</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+        body {
+            margin: 0 auto;
+            padding: 50px 0;
+            width: 80vw;
+            min-height: calc(100vh - 100px);
+            font-family: 'Segoe UI', sans-serif;
+            background: #f4f7fa;
+            color: #333;
+        }
+
+        header {
+            text-align: center;
+            padding-bottom: 20px;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            color: #4b0082;
+        }
+
+        header p {
+            font-size: 1.2em;
+            color: #666;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        section {
+            width: 90%;
+            background: #fff;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+        }
+
+        section h2 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        hr {
+            width: 60%;
+            border: none;
+            border-top: 2px dashed #ccc;
+            margin: 20px 0;
+        }
+
+        .register {
+            margin: 30px 0;
+        }
+
+        .btn {
+            background: #4b0082;
+            color: #fff;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background 0.3s ease;
+        }
+
+        .btn:hover {
+            background: #6a0dad;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background: #eaeaea;
+            font-size: 0.9em;
+            color: #555;
+            border-top: 2px solid #ccc;
+        }
+
+        header img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .registration {
+            width: 90%;
+            background: #fff;
+            padding: 20px;
+            margin: 30px 0;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+        }
+
+        .registration h2 {
+            margin-bottom: 15px;
+            color: #2c3e50;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        input {
+            padding: 8px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #4b0082;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #6a0dad;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="https://miro.medium.com/v2/resize:fit:1400/1*g3ARV1u4v9b9AKEIyPB7zw.jpeg">
+        <h1>🚀 CodeStorm Hackathon 2025</h1>
+        <p>Innovate. Collaborate. Dominate.</p>
+    </header>
+
+    <main>
+        <section class="about">
+            <h2>About the Event</h2>
+            <p>Join us for 36 hours of coding, creativity, and caffeine! Build solutions that matter and compete with
+                the brightest minds.</p>
+        </section>
+
+        <hr />
+
+        <section class="rules">
+            <h2>Rules & Guidelines</h2>
+            <ul>
+                <li>Teams of 1–5 participants</li>
+                <li>Open theme: solve any real-world problem</li>
+                <li>All code must be written during the event</li>
+            </ul>
+        </section>
+
+        <hr />
+
+        <section class="prizes">
+            <h2>Prizes</h2>
+            <p>🏆 ₹50,000 for the winning team<br>🎖️ Swag bags, internships, and more!</p>
+        </section>
+
+        <div class="register">
+            <a href="#" class="btn">Register Now</a>
+            <section class="registration">
+                <h2>Register Your Team</h2>
+                <form action="#" method="post">
+                    <label for="name">Team Name:</label>
+                    <input type="text" id="name" name="team_name" required />
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required />
+
+                    <label for="members">Number of Members:</label>
+                    <input type="number" id="members" name="members" min="1" max="4" required />
+
+                    <label for="college">College Name:</label>
+                    <input type="text" id="college" name="college" required />
+
+                    <button type="submit">Submit Registration</button>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 CodeStorm Hackathon | Designed by Thejaswini</p>
+    </footer>
+</body>
+
+</html>
